@@ -40,7 +40,7 @@ h1 {
 }
 
 /*
-? ======================================= BELOW CODES ARE FOR VIEW PAGE =======================================================
+? ======================================= BELOW CODES ARE FOR VIEW PAGE ========================================================
 */
 .MainPage2 {
   width: 90vw;
@@ -49,6 +49,7 @@ h1 {
   position: relative;
   background-color: #360369;
   color: #ffffff;
+  transition: all 1s ease-in;
 }
 
 #MapBox {
@@ -74,14 +75,16 @@ h2 {
   margin-right: 15px;
   border-radius: 10px;
 }
+
 #longgap {
   padding: 10px 40px;
   background-color: #270846;
   border-radius: 10px;
 }
+
 .WeatherDetails {
   width: 90vw;
-  height: 40vh;
+  height: 25vh;
   margin: auto;
 }
 
@@ -91,6 +94,7 @@ h2 {
   margin-left: 30px;
   font-size: 24px;
 }
+
 #box {
   display: flex;
   justify-content: space-between;
@@ -99,6 +103,7 @@ h2 {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 #data{
  height: 7vh;
  width: 18vw;
@@ -110,4 +115,11 @@ h2 {
  align-items: center;
  padding-left: 10px;
 }
-
+/*
+? ======================================= BELOW CODES ARE FOR footer ========================================================
+*/
+footer{
+ display: flex;
+ justify-content: center;
+ margin-top: 28px;
+}
